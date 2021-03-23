@@ -4,6 +4,10 @@
 
 // querySelector는 노드의 첫 번째 자식을 반환한다.
 const title = document.querySelector("#title");
-title.innerHTML = "Hi! From JS";
-title.style.color = 'red';
-document.title = "I own you now";
+
+function handleClick() {
+    title.style.color = "blue";
+}
+// handleResize() <<== 괄호 붙일 시 자동 호출
+// handleResize <<== 함수를 즉시 호출하지 않고 사이즈 변경시에만 호출
+title.addEventListener("click", handleClick);

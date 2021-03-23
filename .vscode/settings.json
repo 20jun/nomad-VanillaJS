@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Monaco, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.inlineHints.fontFamily": "Monaco, Consolas, 'Courier New', monospace"
+    "editor.fontSize": 20,
+    "editor.inlineHints.fontFamily": "Monaco, Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "normal"
 }
